@@ -1,0 +1,8 @@
+
+.main-layout .outlet {
+    flex-grow: 1; /* Ensure Outlet takes up remaining space */
+    background-color: #000000; /* Neomorphism dark background */
+    /* Neomorphism shadow effect */
+    padding: 20px; /* Inner padding */
+    color: #e0e0e0; /* Light text color for contrast */
+}

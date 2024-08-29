@@ -1,0 +1,77 @@
+.post {
+    width: 100%;
+    border-radius: 20px; /* Rounded corners */
+    margin-bottom: 20px;
+    background-color: #000000; /* Simple black background */
+    box-shadow: none; /* Remove neomorphism shadow */
+    position: relative;
+    color: #ffffff; /* White text color for contrast */
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #333333; /* Darker border for separation */
+    position: relative;
+}
+
+.user-image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    box-shadow: none; /* Remove neomorphism effect on image */
+}
+
+.username {
+    font-weight: bold;
+    flex-grow: 1;
+    color: #e0e0e0; /* Slightly lighter text color for contrast */
+}
+
+.post-options {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    color: #888888; /* Muted icon color */
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Rounded corners for image */
+    box-shadow: none; /* Remove neomorphism shadow */
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.action-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #888888; /* Muted icon color */
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.action-icon:hover {
+    color: #ffffff; /* Brighten on hover */
+}
+
+.save-icon {
+    margin-left: auto;
+}
+
+.post-caption {
+    padding: 10px;
+    color: #e0e0e0; /* Slightly lighter text color */
+}
+
+.caption {
+    font-size: 14px;
+}

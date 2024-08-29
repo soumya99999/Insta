@@ -1,0 +1,60 @@
+.suggested-users {
+  margin-top: 20px;
+  background-color: #000000; /* Simple black background */
+  padding: 20px;
+  max-width: 100%;
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: none; /* Remove neomorphism shadow */
+}
+
+.suggested-users h4 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff; /* Simple white text color */
+}
+
+.suggested-users ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.suggested-users li {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between; /* Ensure all elements inside the li are spaced out correctly */
+  margin-bottom: 10px;
+  border-radius: 15px; /* Rounded corners for list items */
+  padding: 10px; /* Add some padding for inner spacing */
+  background-color: #000000; /* Match background color */
+  box-shadow: none; /* Remove neomorphism shadow */
+}
+
+.suggested-users li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: none; /* Remove neomorphism shadow */
+}
+
+.username {
+  color: #ffffff; /* Simple white text color */
+}
+
+.follow-btn {
+  padding: 8px 12px;
+  background-color: lightseagreen; /* Simple black background */
+  color: #ffffff; /* Simple white text color */
+  border: none;
+  border-radius: 10px; /* Rounded corners for the button */
+  cursor: pointer;
+  box-shadow: none; /* Remove neomorphism shadow */
+  transition: background-color 0.3s ease;
+  flex-shrink: 0; /* Prevent the button from shrinking */
+}
+
+.follow-btn:hover {
+  background-color: #333333; /* Slightly lighter on hover */
+}

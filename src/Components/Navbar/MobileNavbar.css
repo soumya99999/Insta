@@ -1,0 +1,75 @@
+/* Mobile Navbar Styles for screens with max-width 600px */
+body {
+    max-height: 2000vh;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .mobile-navbar {
+        position: fixed;
+        width: 100%;
+        background-color: #000000;
+        z-index: 1000;
+    }
+
+    .top-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .left-icons .insta-text {
+        color: #e4405f;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .right-icons {
+        display: flex;
+    }
+
+    .bottom-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+        background-color: #000000;
+    }
+
+    .menu-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+        color: #ffffff;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .menu-item:hover {
+        transform: scale(1.2);
+    }
+}
+
+/* Hide Mobile Navbar styles when screen width is greater than 600px */
+@media (min-width: 601px) {
+    .mobile-navbar {
+        display: none;
+    }
+}

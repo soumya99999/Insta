@@ -1,0 +1,36 @@
+.right-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: #000000; /* Simple black background */
+  padding: 20px;
+  border-left: none;
+  border-radius: 20px 0 0 20px; /* Rounded corners on the left side */
+  box-shadow: none; /* Remove neomorphism shadow */
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: #000000; /* Match sidebar background */
+  border-radius: 20px; /* Rounded corners */
+  padding: 10px; /* Add some padding for inner spacing */
+  box-shadow: none; /* Remove neomorphism shadow */
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: none; /* Remove neomorphism shadow */
+}
+
+.username {
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff; /* Simple white text color */
+}

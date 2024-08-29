@@ -1,0 +1,112 @@
+/* src/components/Login/Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.login-wrapper {
+    display: flex;
+    width: 800px;
+    /* Adjust width as needed */
+    max-width: 100%;
+    background: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    overflow: hidden;
+    /* Ensures content doesn't overflow the wrapper */
+}
+
+.login-form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-header .logo {
+    font-family: "Billabong", cursive;
+    font-size: 48px;
+    color: #262626;
+    margin: 0;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.login-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+.login-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #007bbd;
+}
+
+.separator-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.separator {
+    flex: 1;
+    border: 0;
+    border-top: 1px solid #dbdbdb;
+}
+
+.separator-text {
+    padding: 0 10px;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.forgot-password {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.forgot-password a {
+    color: #0095f6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-footer a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}

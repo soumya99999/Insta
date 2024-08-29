@@ -1,0 +1,14 @@
+/* src/components/LoginImage/LoginImage.css */
+.login-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .login-image {
+    width: 100%;
+    height: auto;
+  }
+  

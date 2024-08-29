@@ -1,0 +1,12 @@
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px; 
+    padding: 10px;
+    background-color: #000000; /* Simple black background */
+    border-radius: 20px; /* Rounded corners for the overall feed */
+    box-shadow: none; /* Remove neomorphism shadow */
+    color: #ffffff; /* White text color */
+}
